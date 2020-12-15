@@ -35,7 +35,7 @@ Eesti Keeleressursside Keskus ([EKRK](https://keeleressursid.ee/et/keeleressursi
 
 ## Erinevate keelte korpusi
 
-- [Brown](http://Brown](http://en.wikipedia.org/wiki/Brown_Corpus)
+- [Brown](http://en.wikipedia.org/wiki/Brown_Corpus)
 - [LOB](http://en.wikipedia.org/wiki/Lancaster-Oslo-Bergen_Corpus)
 - [Frown](http://www.helsinki.fi/varieng/CoRD/corpora/FROWN/)
 - [BNC](http://www.natcorp.ox.ac.uk/)

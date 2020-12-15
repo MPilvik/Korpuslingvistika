@@ -30,9 +30,9 @@ Regulaaravaldiste otsing töötab reeglina ühe rea piires, st et ei ole võimal
 **33**: Ja dekanaat töötab Akadeemia tee 3 ruumis **33**9 (uue raamatukogu poolses küljes).  
 **u p**: Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue raamatukog**u p**oolses küljes).  
 **339 (uue**: Ja dekanaat töötab Akadeemia tee 3 ruumis **339 (uue** raamatukogu poolses küljes).  
-**raamat**: Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue **raamat**ukogu poolses küljes).
-**m**: Ja dekanaat töötab Akadee**m**ia tee 3 ruu**m**is 339 (uue raa**m**atukogu poolses küljes).
-**\\.**: Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue raamatukogu poolses küljes)**.**  
+**raamat**: Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue **raamat**ukogu poolses küljes).  
+**m**: Ja dekanaat töötab Akadee**m**ia tee 3 ruu**m**is 339 (uue raa**m**atukogu poolses küljes).  
+**\\.**: Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue raamatukogu poolses küljes)**.**   
 
 
 ## TRADITSIOONILISED METASÜMBOLID
@@ -72,17 +72,17 @@ Regulaaravaldiste otsing töötab reeglina ühe rea piires, st et ei ole võimal
 ## HARJUTUS. KVANTORID JA LIHTSAD METASÜMBOLID OTSINGUS
 
 *Ja dekanaat töötab Akadeemia tee 3 ruumis 339 (uue raamatukogu poolses küljes).*  
-* Ära sellegipoolest lase end sellest heidutada, AB-veregrupiga inimesega koos ei hakka sul kunagi igav, nad on alati valmis lõbutsema.* 
+*Ära sellegipoolest lase end sellest heidutada, AB-veregrupiga inimesega koos ei hakka sul kunagi igav, nad on alati valmis lõbutsema.* 
 
 Millised on allolevate otsingute tulemused neist kahest reast otsides?
 
-.
-^J
-^ä
-$
-l+
-a?
-na?
+.  
+^J  
+^ä  
+$  
+l+  
+a?  
+na?  
 
 
 ## KLASSID
@@ -98,10 +98,11 @@ Nurksulgudes on võimalik ka eitada, st mingid sümbolid otsingust välja arvata
 
 ## VEEL METASÜMBOLITEST
 
-\- tähistab vahemikku
-| - toru: tähendus: või.
-Järgnev regulaaravaldis: mina|meie leiab nii mina kui ka meie.
-NB! Pane tähele erinevust [minameie] ja mina|meie vahel.
+\- tähistab vahemikku  
+| - toru: tähendus: või.  
+
+Järgnev regulaaravaldis: *mina|meie* leiab nii *mina* kui ka *meie*.  
+NB! Pane tähele erinevust *\[minameie\]* ja *mina|meie* vahel.
 
 
 ## KÜSIMUS. MIDA OTSITAKSE?
@@ -116,21 +117,23 @@ Lihtsad märgiklassid sisaldavad vaid üht või enamat literaalset märki, näit
 
 Võimalik luua ka "negatiivseid" märgiklasse, kus sobib "kõik, välja arvatud". Selleks tuleb klassi alguses märkida katusega ^.
 *\[^abc\]* tähendab, et sobib iga märk, välja arvatud *a*, *b* või *c*.  
-*\[^ \]\** tähendab, et sobib kõik peale tühiku.
-*\[^ \]\** tähendab, et otsitakse kõiki sümboleid ükskõik kui palju, kuid mitte tühikuid.
-*\[0-9\]* – otsitakse numbreid.
-Aga kõik tähed? Milline tähestik? *\[a-zA-Z\]* *\[a-üA-Ü\]*?
+*\[^ \]\** tähendab, et sobib kõik peale tühiku.  
+*\[^ \]\** tähendab, et otsitakse kõiki sümboleid ükskõik kui palju, kuid mitte tühikuid.  
+*\[0-9\]* – otsitakse numbreid.  
+Aga kõik tähed? Milline tähestik? *\[a-zA-Z\]* *\[a-üA-Ü\]*?  
+
 Kirjakeele korpuste [kasutajaliideses](http://www.cl.ut.ee/korpused/kasutajaliides/) *\[a-z\]*, aga täpitähti esitavad olemid jäävad neist klassidest ikkagi välja.
 
 
 ## EELDEFINEERITUD KLASSID
 
 Ei kehti kirjakeele korpuste kasutajaliideses, aga nt enamasti programmeerimiskeeltes olemas.
-**\[:alpha:\]** tähestiku tähed
-**\[:upper:\]** suurtähed
-**\[:lower:\]** väiketähed
-**\[:digit:\]** numbrid
-**\[:punct:\]** kirjavahemärgid
+
+**\[:alpha:\]** tähestiku tähed  
+**\[:upper:\]** suurtähed  
+**\[:lower:\]** väiketähed  
+**\[:digit:\]** numbrid  
+**\[:punct:\]** kirjavahemärgid  
 
 
 ## HARJUTUSI
@@ -148,7 +151,7 @@ Ei kehti kirjakeele korpuste kasutajaliideses, aga nt enamasti programmeerimiske
 Koosnevad tagurpidi kaldkriipsust (\\) ja ühest alltoodud märkidest. Kui \\ järel ei ole üht allpooltoodud märkidest, siis otsitakse \\-le järgnevat märki ennast.  
 Nii näiteks leitakse \\$ vasteks dollarimärk.
 
-\\A - Leiab rea alguse (sama mis ^).
+\\A - Leiab rea alguse (sama mis ^).  
 \\b - Leiab sõna alguse ja lõpu.
 
 Sõna defineeritakse kui tähtede-numbrite ja allkriipsude jada, nii et sõna lõppu tähistab tühik või märk, mis ei kuulu tähtede, numbrite ega allkriipsu hulka. Kuna täpitähed ja "susisevad" tähed kirjakeele korpuste [kasutajaliideses](http://www.cl.ut.ee/korpused/kasutajaliides/) sisaldavad ampersandi (&) ja semikoolonit (;), siis ei kuulu nad selle definitsiooni kohaselt sõna hulka, nagu ka sidekriips.  
@@ -156,14 +159,14 @@ Sõna defineeritakse kui tähtede-numbrite ja allkriipsude jada, nii et sõna l�
 **\t** või **\011** - tabulaator  
 **\n** või **\012** - nn *newline*, Unixi/Linuxi reavahetus ja sageli selline ka tavalistes tekstiredaktorites.  
 **\r** või **\015** - nn Windowsi reavahetus. NB! Windowsi tekstifailides on rea lõpus **\r\n** Oluline teada, kui kasutad tulevikus tekstitöötlemiseks skripte: **\r\f** *form feed* (uus lehekülg; leheküljevahetus)  
-**\v** - vertical tab, nn vertikaalne kriips
-**\d** - kõik numbrid, samaväärne väljendiga **\[0-9\]**.
-**\D** - kõik mittenumbrid, samaväärne väljendiga **\[^0-9\]**.
-**\s** - kõik "valged vahed", samaväärne väljendiga **\[ \t\n\r\f\v\]**.  
-**\S** - kõik mitte-"valged vahed", samaväärne väljendiga **\[^ \t\n\r\f\v\]**.
-**\w** - leiab iga tähe, numbri või allkriipsu, samaväärne klassiga **\[a-zA-Z0-9_\]** kasutajaliideses, AGA ei otsi html-täpitähti.
-**\W** - leiab iga mitte-tähe, mitte-numbri või mitte-allkriipsu, samaväärne väljendiga **\[^a-zA-Z0-9_\]** kasutajaliideses. NB! html-olemid.
-**\Z** - rea lõpp, samaväärne $-ga.
+**\v** - vertical tab, nn vertikaalne kriips  
+**\d** - kõik numbrid, samaväärne väljendiga **\[0-9\]**.  
+**\D** - kõik mittenumbrid, samaväärne väljendiga **\[^0-9\]**.  
+**\s** - kõik "valged vahed", samaväärne väljendiga **\[ \t\n\r\f\v\]**.    
+**\S** - kõik mitte-"valged vahed", samaväärne väljendiga **\[^ \t\n\r\f\v\]**.  
+**\w** - leiab iga tähe, numbri või allkriipsu, samaväärne klassiga **\[a-zA-Z0-9_\]** kasutajaliideses, AGA ei otsi html-täpitähti.  
+**\W** - leiab iga mitte-tähe, mitte-numbri või mitte-allkriipsu, samaväärne väljendiga **\[^a-zA-Z0-9_\]** kasutajaliideses. NB! html-olemid.  
+**\Z** - rea lõpp, samaväärne $-ga.  
 
 
 ## "AHNED" (*GREEDY*) JA "LAISAD" (*LAZY*) PÄRINGUD
@@ -181,49 +184,43 @@ Aga " **r.\*?** "?
 
 **Kuidas otsida sellest tekstist ainult kõiki lauseid?**
 
-*<p> <s> Võib-olla on aga praegusaja vanemaist teismelistest eakamad põlvkonnad juba lootusetult kadunud , et niisugusest " keelest ” aru saada ? </s> <s> Sallivust ja mõistmist , et kõik ei ole ega peagi olema ühesugused , pole siin maailmanurgas just kaua kuulutatud . </s> <s> Seda teemat käsitleti sovetlikus ühiskonnas peamiselt hea – halva skaalal : siledad , ühetaolised ja ohutud on " meiega ” . </s> <s> On head ja " normaalsed ” . </s> <s> Teistsuguseid meil peaaegu ei olegi , või kui , siis on nad vaenlased või muidu väärdunud . </s> </p>*
+*\<p> <s> Võib-olla on aga praegusaja vanemaist teismelistest eakamad põlvkonnad juba lootusetult kadunud , et niisugusest " keelest " aru saada ? </s> <s> Sallivust ja mõistmist , et kõik ei ole ega peagi olema ühesugused , pole siin maailmanurgas just kaua kuulutatud . </s> <s> Seda teemat käsitleti sovetlikus ühiskonnas peamiselt hea – halva skaalal : siledad , ühetaolised ja ohutud on " meiega " . </s> <s> On head ja " normaalsed " . </s> <s> Teistsuguseid meil peaaegu ei olegi , või kui , siis on nad vaenlased või muidu väärdunud . </s> </p>*
 
 
 ## RÜHMAD JA TAGASIVIITAMINE
 
-Tavaliste sulgudega saab moodustada ka rühmi, millele on võimalik n-ö tagasi viidata või avaldist korrata. Sellisel juhul pole sulud osa otsitavast avaldisest, vaid tähistavad mingi vahemiku algus- ja lõpp-positsiooni näiteks (@[^ ]*). Tagasiviitamiseks on võimalik koostada ka rohkem gruppe ja tagasi viidatakse sel juhul esinemisjärjekorras: \1, \2.
+Tavaliste sulgudega saab moodustada ka rühmi, millele on võimalik n-ö tagasi viidata või avaldist korrata. Sellisel juhul pole sulud osa otsitavast avaldisest, vaid tähistavad mingi vahemiku algus- ja lõpp-positsiooni näiteks (@\[^ \]\*). Tagasiviitamiseks on võimalik koostada ka rohkem gruppe ja tagasi viidatakse sel juhul esinemisjärjekorras: \1, \2.
 
-Näide:
-tere, tere, vana kere
+Näide:  
+*tere, tere, vana kere*  
 
-Kuidas leida selle näite eeskujul juhtumid, kus sõna tere esineb kaks korda järjest?
-Kuidas samast näitest teha otsing kahe grupiga, nii et leitaks nii tere kui ka talle järgnev koma ja tühik?
-Kuidas tagasiviitamist ja rühmi kasutades vahetada sõnade vana ja kere järjekord?
-
-
+Kuidas leida selle näite eeskujul juhtumid, kus sõna *tere* esineb kaks korda järjest?  
+Kuidas samast näitest teha otsing kahe grupiga, nii et leitaks nii *tere* kui ka talle järgnev koma ja tühik?  
+Kuidas tagasiviitamist ja rühmi kasutades vahetada sõnade *vana* ja *kere* järjekord?  
 
 
-
-
-
-
-
+![](../failid/regular_expressions.png)  
 
 https://xkcd.com/208/
 
 
-LISAMATERJALE
+## LISAMATERJALE
 
-Mõned selgitavad videod:
-https://www.youtube.com/watch?v=hwDhO1GLb_4
-https://www.youtube.com/watch?v=RGLldper5II
-https://www.youtube.com/watch?v=DRR9fOXkfRE
-Kirjakeele korpuste kontekstis
-Väga hea sissejuhatav ülevaade
-Näiteid, viiteid õpetusi: http://www.regular-expressions.info/
-Regulaaravalidsi valmiskujul: http://regexlib.com/?AspxAutoDetectCookieSupport=1
-Testi oma avaldist: http://www.regexpal.com/, http://regexr.com/
-Sissejuhatav ülevaade: http://www.zytrax.com/tech/web/regex.htm
-Regulaaravaldiste spikreid: [1], [2], [3]
-
-
-Midagi eestikeelset
+Mõned selgitavad videod:  
+[https://www.youtube.com/watch?v=hwDhO1GLb_4](https://www.youtube.com/watch?v=hwDhO1GLb_4)  
+[https://www.youtube.com/watch?v=RGLldper5II](https://www.youtube.com/watch?v=RGLldper5II)  
+[https://www.youtube.com/watch?v=DRR9fOXkfRE](https://www.youtube.com/watch?v=DRR9fOXkfRE)  
+[Kirjakeele korpuste kontekstis](http://www.cl.ut.ee/korpused/kasutajaliides/erispikker#reg)  
+Väga hea sissejuhatav [ülevaade](http://www.grymoire.com/Unix/Regular.html)  
+Näiteid, viiteid õpetusi: [http://www.regular-expressions.info/](http://www.regular-expressions.info/)  
+Regulaaravalidsi valmiskujul: [http://regexlib.com/?AspxAutoDetectCookieSupport=1](http://regexlib.com/?AspxAutoDetectCookieSupport=1)  
+Testi oma avaldist: [http://www.regexpal.com/](http://www.regexpal.com/), [http://regexr.com/](http://regexr.com/)  
+Sissejuhatav ülevaade: [http://www.zytrax.com/tech/web/regex.htm](http://www.zytrax.com/tech/web/regex.htm)  
+Regulaaravaldiste spikreid: [1](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/), [2](http://regexlib.com/CheatSheet.aspx), [3](http://www.rexegg.com/regex-quickstart.html)  
 
 
-Markus Dickinsoni loenguslaidid
-Mõnest edasijõudnumast teemast
+Midagi [eestikeelset](http://www.cl.ut.ee/inimesed/nkahusk/sissejuhatus-pythonisse/regulaaravaldised.html)
+
+
+Markus Dickinsoni [loenguslaidid](http://cl.indiana.edu/~md7/13/615/slides/09-re/09-re.pdf)  
+Mõnest [edasijõudnumast teemast](http://www.smashingmagazine.com/2009/05/introduction-to-advanced-regular-expressions/)  
