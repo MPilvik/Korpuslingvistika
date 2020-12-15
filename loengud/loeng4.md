@@ -184,7 +184,7 @@ Aga " **r.\*?** "?
 
 **Kuidas otsida sellest tekstist ainult kõiki lauseid?**
 
-*\<p> <s> Võib-olla on aga praegusaja vanemaist teismelistest eakamad põlvkonnad juba lootusetult kadunud , et niisugusest " keelest " aru saada ? </s> <s> Sallivust ja mõistmist , et kõik ei ole ega peagi olema ühesugused , pole siin maailmanurgas just kaua kuulutatud . </s> <s> Seda teemat käsitleti sovetlikus ühiskonnas peamiselt hea – halva skaalal : siledad , ühetaolised ja ohutud on " meiega " . </s> <s> On head ja " normaalsed " . </s> <s> Teistsuguseid meil peaaegu ei olegi , või kui , siis on nad vaenlased või muidu väärdunud . </s> </p>*
+*\<p> \<s> Võib-olla on aga praegusaja vanemaist teismelistest eakamad põlvkonnad juba lootusetult kadunud , et niisugusest " keelest " aru saada ? \</s> \<s> Sallivust ja mõistmist , et kõik ei ole ega peagi olema ühesugused , pole siin maailmanurgas just kaua kuulutatud . \</s> \<s> Seda teemat käsitleti sovetlikus ühiskonnas peamiselt hea – halva skaalal : siledad , ühetaolised ja ohutud on " meiega " . \</s> \<s> On head ja " normaalsed " . \</s> \<s> Teistsuguseid meil peaaegu ei olegi , või kui , siis on nad vaenlased või muidu väärdunud . \</s> \</p>*
 
 
 ## RÜHMAD JA TAGASIVIITAMINE
